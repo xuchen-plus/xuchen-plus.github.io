@@ -3,7 +3,7 @@
 paginate: 10
 markdown: rdiscount
 permalink: /:categories/:year/:month/:day/:title 
-
+encoding: UTF-8
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 excerpt_separator: <!--more-->
