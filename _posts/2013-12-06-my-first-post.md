@@ -37,7 +37,7 @@ gem sources -a http://ruby.taobao.org/
 	jekyll serve  （出错的话可以加--trace看call stack）
 {% endhighlight %}
 
-- 设置中文编码：之前很多人的做法是改convertible.rb代码，现在jekyll最新版已经有解决方案，在站点_config.yml里加上一行即可。参见jekyll github pull #1449
+- 设置中文编码：之前很多人的做法是改convertible.rb代码，现在jekyll最新版已经有解决方案，在站点_config.yml里加上一行即可。参见[jekyll github pull #1449](https://github.com/mojombo/jekyll/pull/1449)
 {% highlight bash %}
 	encoding: UTF-8
 {% endhighlight %}
